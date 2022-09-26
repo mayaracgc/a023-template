@@ -1,4 +1,49 @@
 *{
     margin: 0;
     padding: 0;
+} 
+
+main{
+    background-color: orange;
+    flex-grow: 1;
+    display: flex;
+} 
+
+header{
+    height: 8vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(245, 159, 173);
+}
+
+footer{
+    background-color: yellow;
+    height: 5vh;
+} 
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+} 
+
+article{
+    border: solid 1px black;
+} 
+
+.conteudo-principal{
+    display: flex;
+} 
+
+.textomeio{
+    flex: 2;
+    /* o flex sozinho igual ta ali engloba todos:
+    flex grow 1
+    flex shrink 1
+    flex basis automatico*/
+}
+.texto{
+    flex: 1;
 }
